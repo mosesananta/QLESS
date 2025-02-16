@@ -1,0 +1,37 @@
+# Ignore all folders
+*/
+./cache
+
+# Except the "out" folder
+# !out/
+
+# Optionally ensure subdirectory contents inside "out" are tracked
+!out/**
+
+# Ignore all Git LFS tracked files
+*.lfs
+*.bin
+*.pt
+*.ckpt
+*.h5
+*.tflite
+*.onnx
+*.weights
+*.tar.gz
+*.zip
+*.tar
+*.bz2
+*.model
+*.pyc
+*.safetensors
+
+# Ignore large media files
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
